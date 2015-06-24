@@ -2,18 +2,89 @@
 <html>
 <head>
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
 <body>
+<header>
 
-<div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div>
+    <div class="container">
+        <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only" style="line-height: 2 ;left: 1%">
+            <i class="mdi-navigation-menu"></i></a>
+    </div>
+    <ul id="nav-mobile" class="side-nav fixed">
+        <li class="logo" style="background-color: transparent">
+            <a id="logo-container" href="http://anudr01d.github.io" class="brand-logo" style="height: 100px">
+                <img src="images/me.jpg" alt="" class="circle responsive-img" style="height: 100%; display: block; pointer-events: none; margin: 10px auto">
+            </a>
+        </li>
 
+        <li class="card-panel grey lighten-5 z-depth-1 waves-effect waves-red" style="width: 90%; margin: 10px auto; display: block">
+
+            <div class="row valign-wrapper " style="margin-bottom: 0px">
+                <div class="col s4 center-align">
+                    <img src="images/ic_administrator.png" alt="" style="height: 100%; margin: 10px auto; display: block">
+                </div>
+                <div class="col s10 center-align">
+                              <span style="height: 100%; font-family: Roboto; font-weight: 200; font-size: 1.6rem;" class="blue-text">
+                                About me
+                              </span>
+                </div>
+            </div>
+        </li>
+        <li class="card-panel grey lighten-5 z-depth-1 waves-effect waves-red" style="width: 90%; margin: 10px auto; display: block">
+
+            <div class="row valign-wrapper " style="margin-bottom: 0px">
+                <div class="col s4 center-align">
+                    <img src="images/ic_thecnical_wrench.png" alt="" style="height: 100%; margin: 10px auto; display: block">
+                </div>
+                <div class="col s10 center-align">
+                              <span style="height: 100%; font-family: Roboto; font-weight: 200; font-size: 1.6rem;" class="blue-text">
+                                Skills
+                              </span>
+                </div>
+            </div>
+        </li>
+        <li class="card-panel grey lighten-5 z-depth-1 waves-effect waves-red" style="width: 90%; margin: 10px auto; display: block">
+
+            <div class="row valign-wrapper " style="margin-bottom: 0px">
+                <div class="col s4 center-align">
+                    <img src="images/ic_folder2.png" alt="" style="height: 100%; margin: 10px auto; display: block">
+                </div>
+                <div class="col s10 center-align">
+                              <span style="height: 100%; font-family: Roboto; font-weight: 200; font-size: 1.6rem;" class="blue-text">
+                                Portfolio
+                              </span>
+                </div>
+            </div>
+        </li>
+        <li class="card-panel grey lighten-5 z-depth-1 waves-effect waves-red" style="width: 90%; margin: 10px auto; display: block">
+
+            <div class="row valign-wrapper " style="margin-bottom: 0px">
+                <div class="col s4 center-align">
+                    <img src="images/ic_envelope.png" alt="" style="height: 100%; margin: 10px auto; display: block">
+                </div>
+                <div class="col s10 center-align">
+                              <span style="height: 100%; font-family: Roboto; font-weight: 200; font-size: 1.6rem;" class="blue-text">
+                                Contact
+                              </span>
+                </div>
+            </div>
+        </li>
+    </ul>
+</header>
+
+<div class="row">
+    <div class="red lighten-2 col s12 right-align" style="padding: 5%">
+        <span class="flow-text" style="text-align: start; line-height: 50px; color: #FFFFFF; font-size: 48px">Hi there!  </span>
+        <span class="flow-text" style="font-weight: 200; text-align: start; line-height: 50px; color: #FFFFFF; font-size: 48px">  I'm Anudeep</span>
+    </div>
+</div>
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script src="js/init.js"></script>
 </body>
 </html>
